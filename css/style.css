@@ -131,3 +131,38 @@ body{
     color: white;
     font-size: 14px;
 }
+#auth{
+    cursor: pointer;
+}
+
+@media (max-width:550px) {
+    .card{
+        width: 400px;
+        height:600px;
+    }
+    
+    .card .profile-data{
+        flex-direction: column;
+        display: flex;
+        flex-direction: row;  
+        padding-bottom: 12px;
+    }
+    #text-detail-right ul li{
+        margin-bottom: 5px;
+    }
+    .social-icons{
+        margin-top:8px;
+        margin-bottom: 45px;
+    }  
+    .card .card-top img{
+        width: 400px;
+    }
+    .card .profile-photo .profile-photo-img{
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+    }
+    .card .copyright{
+        padding: 30px;
+    }
+}
